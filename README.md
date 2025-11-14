@@ -16,3 +16,9 @@ Write a C++ program that, using the class fractionType, performs operations on f
 ## How My Solution Works:  
 This implementation of the class **fractionType** provides a complete solution for working with rational fractions of the form *a/b*, where *a* and *b* are integers and *b!=0*.  
 1.  My output operator prints fractions in the form a/b.  
+![Image 001](images/img001.png)  
+2.  My input operator reads a fraction in the form a/b.  
+**Note:The in-class example ends here, but the student should add more information about this project.**
+
+## Final Thoughts:  
+I enjoyed this project because it helped me see the value in overloading functions to work with different programming objects.
