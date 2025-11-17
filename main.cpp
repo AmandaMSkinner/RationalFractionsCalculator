@@ -1,5 +1,6 @@
 #include <iostream>
 #include <iomanip>
+#include <limits>
 #include "fractionType.h"
 
 using namespace std; 
@@ -47,6 +48,11 @@ int main()
      num3 = num1/num2;
      cout << "(" << num1 << ") / (" << num2
           << ") = " << num3 << endl;
+
+    // prevents auto-close
+    cin.ignore(numeric_limits<streamsize>::max(), '\n');
+    cout << "\nPress Enter to exit...";
+    cin.get();
 
      return 0;
 }
